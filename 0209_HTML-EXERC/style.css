@@ -1,0 +1,40 @@
+.cineplex {
+
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.menu {
+    
+    text-decoration: none;
+    color:dimgray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.regiao {
+
+    color: rgb(0, 3, 80); 
+    font-size: 20px;
+    text-decoration: none;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.hoje {
+
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.amanha {
+
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
