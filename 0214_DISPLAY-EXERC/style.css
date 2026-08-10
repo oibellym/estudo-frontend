@@ -1,0 +1,55 @@
+#title {
+
+    color: #febe01;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial;
+    text-shadow: 0px 0px 2px #febf01;
+
+}
+
+.produto {
+
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-family: Arial;
+    width: 800px;
+    border: 1px solid #febf0179;
+    box-shadow: 0px 0px 10px #febf0139;
+
+}
+
+.preco, .destaque {
+
+    color: #febe01;
+
+}
+
+.desc {
+
+    color: #b2b2b2;
+
+}
+
+.btn {
+
+    font-family: inherit;
+    margin-top: 20px;
+    background-color: #febe01;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+body {
+
+    background-color: #1a1a1a;
+
+}
