@@ -23,7 +23,7 @@
 
 #links {
 
-    text-decoration: ;
+    text-decoration: none;
     color: #b89a00;
     font-weight: bold;
     font-family: sans-serif;
@@ -45,5 +45,11 @@ span {
     text-decoration-color: #fdd50c;
     font-family: sans-serif;
     height: 25px;
+
+}
+
+img {
+
+    max-width: 100%;
 
 }
