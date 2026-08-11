@@ -1,0 +1,103 @@
+
+body {
+
+    /* Config Página */
+    background-color: #1a1a1a;
+
+}
+
+#title {
+
+    color: #febe01;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial;
+    text-shadow: 0px 0px 2px #febf01;
+
+}
+
+#grid {
+
+    display: grid; /* Estabelece o estilo de display como grid */
+    grid-template-columns: 350px 350px; /* Estabelece tamanho e qunatidade de colunas */
+    grid-template-rows: 1fr 1fr;
+    place-content: center; /* Alinha as colunas no centro*/
+    gap: 25px; /* Estabelece espaçamento entre as colunas */
+
+}
+
+.produto {
+
+     /* Config Caixa */
+     grid-template-rows:auto 1fr auto auto;
+     justify-content: center;
+     display: grid;
+     height: auto;
+     padding: 30px;
+     border-radius: 10px;
+     background-color: black;
+     border: 1px solid #febf0179;
+     box-shadow: 0px 0px 10px #febf0139;
+
+}
+
+.nome-produto {
+
+    /* Config Nome dos Produtos */
+    font-family: Arial;
+    color: white;
+    padding-top: 0px;
+    margin: 0px;
+
+}
+
+.desc {
+
+    /* Config Descrições dos Produtos */
+    font-family: Arial;
+    color: #b2b2b2;
+    text-align: left;
+
+}
+
+.produtos-img {
+
+    object-fit:cover;
+    object-position: center;
+    justify-self: center;
+    border: 1px solid rgba(206, 205, 205, 0.18);
+    box-shadow: 0px 0px 4px rgba(206, 205, 205, 0.18);
+    width: 300px;
+    height: 200px;
+
+}
+
+.btn {
+
+    /* Config Botões COMPRAR */
+    height: 30px;
+    width: 100%;
+    justify-self: center;
+    margin-top: 15px;
+    background-color: #febe01;
+    border: none;
+    border-radius: 5px;
+    
+    /* Config Texto */
+    text-transform:uppercase;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    
+}
+
+.preco, .destaque {
+
+    /* Destaques */
+    color: #febe01;
+    font-weight:600;
+
+}
