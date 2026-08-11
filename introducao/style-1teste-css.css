@@ -1,0 +1,43 @@
+/* PARA INDICAR UM id É NECESSARIO ANTECEDER # */
+#testcss {
+    color: #be0000;
+    text-decoration:none;
+} 
+
+.STEEM2 { /* estiliza todos os links (<a></a>) com a classe STEEM2 */
+    color:rgb(0, 91, 107);
+}
+
+/* mas este sim */
+p { /* estiliza todos os textos p */
+    color:black;
+    text-decoration:none;
+    font-size: 20px;
+}
+
+html p { /* estiliza todos os textos p dentro de <html><html> */
+    color:black;
+    text-decoration:none;
+    font-size: 20px;
+}
+
+html body p { /* estiliza todos os textos p dentro de <html><body><html>. Isso é válido quando há IDs e classes*/
+    color:black;
+    text-decoration:none;
+    font-size: 20px;
+}
+
+p a { /* estiliza todos os links (<a></a>) dentro de p */
+    font-size: 50px;
+    color:rgb(67, 0, 155);
+    text-decoration:none;
+}
+
+h1 { /* estiliza todos os títulos h1 */
+    color: #ffee00;
+    text-decoration:none;
+}
+
+#clickhere, #p1 { /* é possível estilizar multiplos elementos */
+   color: #00ff00; 
+}
