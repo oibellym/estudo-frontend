@@ -1,53 +1,72 @@
 <!-- ESTRUTURA DE UM DOC HTML -->
 
+<!-- Define arquivo HTML -->
 <!DOCTYPE html>
 
+<!-- Inicia bloco HTML em PT-BR -->
 <html lang="pt-br">
 
+    <!-- Bloco de definições e título da aba -->
     <head>
         
-        <meta charset="UTF-8"> <!-- Define codificação Unicode -->
-        <link rel="stylesheet" href="style.css"> <!-- Vincula o arquivo CSS -->
+        <meta charset="UTF-8"> <!-- Definindo codificação Unicode -->
+        <link rel="stylesheet" href="style.css"> <!-- Vinculando o arquivo CSS -->
 
         <title> Titulo da Guia </title>
 
     </head>
 
+    <!-- Corpo do código - Exibições na tela -->
     <body>
-        
-        <div id="title"> 
 
-            <h1> Título da Página </h1>
-
-        </div>
+        <h1 id="title"> Título da Página </h1>
         
+        <!-- Div para definir um bloco que serve para auxiliar no posicionamento dos elementos -->
         <div id="content">
 
-            <p> Parágrafo </p>
+            <!-- Parágrafo -->
             <p> Página de Aplicação Introdutória aos Tópicos. </p>
 
+            <!-- Tag genérica -->
             <span> Links: </span>
             
             <div id="links">
 
-                <a href="/introducao/index-html.html"> Introdução HTML </a> <br>
+                <!-- Acrescentando links de acesso --->
+                <a href="/introducao/index-html.html"> Introdução HTML </a> <br> <!-- tag <br> serve para pular linha -->
                 <a href="/introducao/index-css.html"> Introdução CSS </a> <br>
                 <a href="/introducao/index-js.html"> Introdução JS </a> <br>
-
-                <br>
-                <br>
-                <br>
-
-                <!-- Por alguma razão que não entendo, o redimensionamento da minha página ficou lagadasso dps das imgs -->
-                <img src="/0216-imagens/img/bikcraft.svg" alt="teste imagem1" width="300px"> <br>
-                <img src="/0216-imagens/img/bicicleta-1200-800.jpg" alt="teste imagem1" width="300px"> <br>
-                <img src="/0216-imagens/img/floresta.jpg" alt="teste imagem1" width="300px"> <br>
-                <img src="/0216-imagens/img/lobo.jpg" alt="teste imagem1" width="300px">
 
             </div>
 
         </div>
 
+        <div id="flex1">
+
+            <div id="imagens">
+
+                <!-- Colocando imagens -->
+                <img src="/0216-imagens/img/bikcraft.svg" alt="teste imagem1"> <br>
+                <img src="/0216-imagens/img/bicicleta-1200-800.jpg" alt="teste imagem1" width="300px"> <br>
+                <img src="/0216-imagens/img/floresta.jpg" alt="teste imagem1" width="300px"> <br>
+                <img src="/0216-imagens/img/lobo.jpg" alt="teste imagem1" width="300px">
+            
+            </div>
+
+            <h1 id="flex-txt"> Testando FlexBox 1 </h1>
+
+            <h1 id="flex-txt"> Testando FlexBox 1 </h1>
+
+        </div>
+
+        <div id="flex2">
+
+            <h1 id="flex-txt"> Testando FlexBox 2 </h1>
+
+            <h1 id="flex-txt"> Testando FlexBox 2 </h1>
+
+        </div>
+        
     </body>
 
 </html>
