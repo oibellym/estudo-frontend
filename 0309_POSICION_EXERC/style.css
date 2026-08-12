@@ -1,0 +1,122 @@
+body {
+
+    background: #f7f7f7;
+    font-family: arial;
+    max-block-size: 1000px;
+
+
+}
+
+#logo {
+
+    display: block;
+    max-width: 100%;
+    margin: 50px;
+    justify-self: center;
+
+}
+
+#abas {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 20px;
+    
+}
+
+.opcoes {
+    
+    background: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+
+}
+
+#content {
+
+    display: grid;
+    grid-template-rows: 369px 369px;
+    justify-content: center;
+    font-size: 20px;
+
+}
+
+#line1 {
+
+    background: white;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    
+}
+
+#bikcraft-desc {
+
+    margin-right: 20px;
+    text-align: right;
+    align-self: center;
+    justify-self: right;
+    max-width: 440px;
+    
+}
+
+#bikcraft-desc button {
+    
+    padding: 15px 30px;
+    background: #ee2211;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+#bikcraft-img {
+    
+    display: grid;
+    max-width: 100%;
+    
+    width: auto;
+    
+}
+
+#line2 {
+    
+    display: grid;
+    grid-template-columns: 500px 500px;
+    
+}
+
+#vantagens-title {
+
+    color: #c6c6c6;
+    font-size: 64px;
+    align-self: center;
+    text-align: right;
+    margin-right: 20px;
+
+}
+
+#vantagens-desc {
+    
+    grid-column: 2;
+    background: white;
+    padding-left: 20px;
+    align-content: center;
+
+}
+
+#vantagens-desc p {
+
+    margin-top: 10px;
+    padding-left: 40px;
+    max-width: 300px;
+
+}
+
+#vantagens-desc h3 {
+
+    display: flex;
+    gap: 15px;
+    margin-bottom: 0px;
+
+}
