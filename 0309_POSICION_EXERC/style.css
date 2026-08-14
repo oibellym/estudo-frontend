@@ -2,7 +2,10 @@ body {
 
     background: #f7f7f7;
     font-family: arial;
-    max-block-size: 1000px;
+    height: 1fr;
+    margin: 0px;
+
+    display: block;
 
 
 }
@@ -11,14 +14,24 @@ body {
 
     display: block;
     max-width: 100%;
-    margin: 50px;
     justify-self: center;
+    margin: 50px;
+
+    /*
+
+    Também é possível incluir a imagem em uma <div> e centralizar da maneira a seguir:
+
+    widith: 200px (tamanho que preferir, não sendo nem 100% nem auto)
+    margin: auto;
+    
+    */
 
 }
 
 #abas {
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 50px;
     gap: 20px;
@@ -36,31 +49,38 @@ body {
 #content {
 
     display: grid;
-    grid-template-rows: 369px 369px;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    max-width:1000px;
+    max-height: 1000px;
+    justify-self: center;
     font-size: 20px;
 
 }
 
-#line1 {
+#a1x1 {
+
+    /* border: 5px solid #ee2211; */
+    
+    grid-column: 1;
+    grid-row: 1;
 
     background: white;
-    display: grid;
-    grid-template-columns: 500px 500px;
+    align-content: center;
+    justify-content: right;
+
     
 }
 
-#bikcraft-desc {
-
-    margin-right: 20px;
+#adjust1x1 {
+    
+    padding-right: 20px;
+    
     text-align: right;
-    align-self: center;
-    justify-self: right;
-    max-width: 440px;
-    
+
 }
 
-#bikcraft-desc button {
+#a1x1 button {
     
     padding: 15px 30px;
     background: #ee2211;
@@ -70,53 +90,95 @@ body {
     
 }
 
-#bikcraft-img {
+#detail {
+
+    grid-row: 1;
+    grid-column: 1/-1;
+    z-index: 1;
+
+    justify-self: center;
+
+    margin-top: 25px;
+
+    width: 60px;
+    height: 4px;
+    background: #ee2211;
+
+}
+
+#a1x2 {
     
+    /* border: 5px solid blue; */
+
+    grid-column: 2;
+    grid-row: 1;
+    
+}
+
+#a1x2 img {
+
     display: grid;
     max-width: 100%;
-    
-    width: auto;
-    
+
 }
 
-#line2 {
+#a2x1 {
     
-    display: grid;
-    grid-template-columns: 500px 500px;
+    /* border: 5px solid yellow; */
+
+    grid-column: 1;
+    grid-row: 2;
     
-}
-
-#vantagens-title {
-
     color: #c6c6c6;
-    font-size: 64px;
+    font-size: 26px;
     align-self: center;
     text-align: right;
-    margin-right: 20px;
+    padding-right: 20px;
 
 }
 
-#vantagens-desc {
+#a2x2 {
     
+    /* border: 5px solid rgb(242, 7, 207); */
+
     grid-column: 2;
+    grid-row: 2;
+
     background: white;
-    padding-left: 20px;
-    align-content: center;
+    
+}
+
+#adjust2x2 {
+
+    place-self: center;
 
 }
 
-#vantagens-desc p {
+#a2x2 p {
 
-    margin-top: 10px;
+    margin-top: 0px;
     padding-left: 40px;
     max-width: 300px;
 
 }
 
-#vantagens-desc h3 {
+.icons {
 
     display: flex;
     gap: 15px;
-    margin-bottom: 0px;
+
+}
+
+#rodape {
+
+    font-size: 20px;
+
+    background: white;
+    padding: 20px;
+
+    margin-top: 100px;
+
+    align-content: center;
+    text-align: center;
 
 }
