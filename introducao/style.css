@@ -87,3 +87,49 @@ span {
     height: 25px;
 
 }
+
+#img-background {
+
+    color: green;
+    height: 1000px;
+    background-color: pink;
+    background-image: url("../0216-imagens/img/bicicleta.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    display: flex;
+
+}
+
+#img-background h1 {
+
+    background: #eeeeee;
+    margin: auto;
+    padding: 1rem 2rem;
+
+}
+
+#pattern {
+
+    height: 300px;
+    background-color: green;
+    background-image: url(../0216-imagens/img/pattern.svg);
+    background-repeat: repeat;
+    background-size: 50px;
+
+}
+
+#gradient-linear {
+
+    height: 200px;
+    background-image: linear-gradient(to top, lightblue, lightcoral);
+
+}
+
+#gradient-radial {
+
+    height: 200px;
+    background-image: radial-gradient(circle, rgb(255, 216, 143), rgb(253, 253, 186), lightgreen);
+
+}
