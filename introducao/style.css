@@ -133,3 +133,98 @@ span {
     background-image: radial-gradient(circle, rgb(255, 216, 143), rgb(253, 253, 186), lightgreen);
 
 }
+
+/* #region Pseudo Classes - Estado */
+
+#estado {
+
+    display: inline-block;
+    margin: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-family: arial;
+    text-decoration: none;
+    background-color: rgb(197, 156, 253);
+    color: #217;
+    transition: .3s;
+
+}
+
+#estado:hover {
+
+    background-color: #adf;
+    color: #147;
+
+}
+
+#estado:focus {
+
+    background-color: #cfa;         
+    color: #371;
+    outline: 2px solid rgb(226, 2, 246); /*Apenas aplicar um border também surte o mesmo efeito*/
+
+}
+
+#estado:active {
+
+    background-color: rgb(255, 139, 31);
+    color: #a00;
+
+}
+
+#estado:visited {
+
+    background-color: rgb(144, 65, 255);
+    color: #217;
+
+}
+
+/* #endregion */
+
+/* #region Pseudo Classes - Seletores */
+
+    /* primeiro elemento */
+    #seletor-1 li:first-child {
+    background: #caf;
+    }
+
+    /* último elemento */
+    #seletor-1 li:last-child {
+    background: #cfa;
+    }
+
+    /* terceiro elemento */
+    #seletor-1 li:nth-child(3) {
+    background: #fda;
+    }
+
+    /* elementos ímpares */
+    #seletor-2 li:nth-child(odd) {
+    background: #cfa;
+    }
+
+    /* elementos pares */
+    #seletor-2 li:nth-child(even) {
+    background: #adf;
+    }
+
+    /* de 4 em 4 */
+    #seletor-2 li:nth-child(4n) {
+    background: #caf;
+    }
+
+/* #endregion */
+
+/* #region Pseudo Classes - :not */
+
+    /* todos menos first-child e last-child */
+    ol li:not(:first-child, :last-child) {
+        background: #adf;
+    }
+
+    /* todos h2's dentro de section, menos o que tiver a classe .contato */
+    section h2:not(.contato) {
+        text-decoration: underline;
+    }
+
+/* #endregion */
